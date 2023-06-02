@@ -151,7 +151,7 @@
 
 @media (max-width: 768px) {
   .carousel__item iframe {
-    width: 460px;
+    width: 330px;
     height: 500px;
   }
 }
