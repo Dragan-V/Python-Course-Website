@@ -4,6 +4,11 @@ body {
   background-color: #ffffff;
 }
 
+.carousel__item iframe {
+  width: 900px;
+  height: 500px;
+}
+
 .layout_padding {
   padding: 75px 0;
 }

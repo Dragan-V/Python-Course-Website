@@ -4,6 +4,10 @@
   }
 }
 
+
+
+
+
 @media (max-width: 992px) {
 
   .hero_area {
@@ -144,6 +148,13 @@
 }
 
 @media (max-width: 360px) {}
+
+@media (max-width: 768px) {
+  .carousel__item iframe {
+    width: 460px;
+    height: 500px;
+  }
+}
 
 @media (min-width: 1200px) {
   .container {
