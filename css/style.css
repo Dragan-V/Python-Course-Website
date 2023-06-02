@@ -599,6 +599,10 @@ a:focus {
   margin-top: 230px;
 }
 
+.team_section .team_container .box.b-4 {
+  margin-top: 330px;
+}
+
 .team_section .btn-box {
   display: -webkit-box;
   display: -ms-flexbox;

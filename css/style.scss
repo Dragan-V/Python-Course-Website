@@ -23,9 +23,11 @@ $primary2: #041858;
   text-transform: uppercase;
   font-weight: bold;
 }
-.ifr{
+
+.ifr {
   border-radius: 15px;
 }
+
 body {
   @include main-font;
   color: #0c0c0c;
@@ -522,7 +524,7 @@ a:focus {
 
 
         img {
-         width: 100%;
+          width: 100%;
 
         }
 
@@ -557,22 +559,30 @@ a:focus {
         margin-top: 230px;
       }
 
+      &.b-4 {
+        margin-top: 330px;
+      }
 
     }
+
+
   }
+
+
+
   margin-top: 100px;
 }
-.team_container .box.b-4 {
-  margin-top: 330px;
-}
-  .btn-box {
-    display: flex;
-    justify-content: center;
 
-    a {
-      @include hero_btn($primary1, $white, 10px, 35px, 30px);
-    }
+
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+
+  a {
+    @include hero_btn($primary1, $white, 10px, 35px, 30px);
   }
+}
 
 
 // end team section
