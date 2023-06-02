@@ -83,9 +83,10 @@ body {
   background: none;
   background-color: #041858;
   padding-top: 45px;
-  position: absolute;
+  /* position: absolute; */
   bottom: 0px;
   width: 100%;
+  margin-top: 40px;
 }
 
 .header_section .container-fluid {
