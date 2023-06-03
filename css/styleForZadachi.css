@@ -25,7 +25,6 @@
     bottom: 0;
     left: 0;
     text-align: center;
-    margin-top: 40px;
 }
 
 .carousel__button {
@@ -36,6 +35,31 @@
     border-radius: 50%;
     margin: 0 5px;
     cursor: pointer;
+}
+
+.carousel__button--next {
+    display: inline-block;
+    background-image: url(../images/right-angle.png);
+    background-size: 8px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    background-position: center;
+    background-color: #d8bf36;
+}
+
+.carousel__button.carousel__button--prev {
+
+    display: inline-block;
+    background-image: url(../images/left-angle.png);
+    background-size: 8px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    background-position: center;
+    background-color: #d8bf36;
 }
 
 .carousel__button--selected {
