@@ -100,7 +100,7 @@ body {
   .footer_bg {
     background: none;
     background-color: $primary2;
-    padding-top: 45px;
+
   }
 }
 
@@ -655,7 +655,7 @@ a:focus {
   background-image: url(../images/footer-bg.png);
   background-size: cover;
   background-position: right top;
-  padding-top: 250px;
+
 }
 
 // contact section
@@ -850,7 +850,7 @@ a:focus {
 }
 
 .footer_section p {
-  color: $white;
+  color: blue;
   margin: 0 auto;
   text-align: center;
   padding: 20px;
