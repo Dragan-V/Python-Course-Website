@@ -91,6 +91,73 @@ body {
   background: #009938;
 } */
 
+.card {
+  width: 250px;
+  height: 250px;
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  perspective: 800px;
+  transition: transform 0.8s;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-front {
+
+  color: #fff;
+  display: flex;
+  align-items: center;
+
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.card-back {
+  background-color: #041858;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border: 10px solid #041858;
+  border-radius: 25px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(180deg) translateX(-45.5%) rotate(-15deg) translateX(56.5%) translateY(20%) rotate(-1deg);
+  width: 120%;
+  height: 75%;
+  /* -webkit-transform: translateX(-52.5%) rotate(-15deg); */
+  /* transform: translateX(-52.5%) rotate(-15deg); */
+
+  /* content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 50%;
+    width: 120%;
+    height: 75%;
+    border-radius: 25px;
+    -webkit-transform: translateX(-52.5%) rotate(-15deg);
+    transform: translateX(-52.5%) rotate(-15deg);
+    background-color: #041858; */
+
+}
+
+
 .sub_page .hero_area {
   height: auto;
   background: none;
