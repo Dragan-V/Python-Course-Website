@@ -137,7 +137,7 @@ body {
   border-radius: 25px;
   justify-content: center;
   font-size: 24px;
-  transform: rotateY(180deg) translateX(-45.5%) rotate(-15deg) translateX(56.5%) translateY(20%) rotate(-1deg);
+  transform: rotateY(180deg) translateX(-52.5%) rotate(-15deg) translateX(56.5%) translateY(24%) rotate(-1deg);
   width: 120%;
   height: 75%;
   /* -webkit-transform: translateX(-52.5%) rotate(-15deg); */
