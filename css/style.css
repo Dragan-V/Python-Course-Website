@@ -20,10 +20,10 @@ body {
 .layout_padding2-top {
   padding-top: 45px;
 }
-
+/* 
 .layout_padding2-bottom {
   padding-bottom: 45px;
-}
+} */
 
 .layout_padding-top {
   padding-top: 75px;
@@ -169,8 +169,8 @@ body {
   background-color: #041858;
   background: none;
   background-color: #041858;
-  position: fixed;
-  bottom: 0px;
+  /* position: fixed;
+  bottom: 0px; */
   width: 100%;
 }
 
@@ -443,7 +443,7 @@ a:focus {
   -ms-flex-align: center;
   align-items: center;
   justify-content: center;
-  margin-top: 10%;
+  /* margin-top: 10%; */
 
 }
 
@@ -621,6 +621,7 @@ a:focus {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  margin-top:20px;
 }
 
 .team_section .team_container {
