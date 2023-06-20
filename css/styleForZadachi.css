@@ -65,3 +65,8 @@
 .carousel__button--selected {
     background: #d8bf36;
 }
+
+
+.bottom {
+    bottom: 0px;
+}

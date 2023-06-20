@@ -168,11 +168,12 @@ body {
 .sub_page .footer_bg {
   background: none;
   background-color: #041858;
-  bottom: 0px;
+  /* bottom: 0px; */
   position: absolute;
   width: 100%;
 }
 
+/* 
 .sub_page .footer_bg_vid {
   background: none;
   background-color: #041858;
@@ -182,7 +183,7 @@ body {
   height: auto;
   background: none;
   background-color: #041858;
-}
+} */
 
 .header_section .container-fluid {
   padding-right: 25px;
