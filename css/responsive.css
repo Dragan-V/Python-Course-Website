@@ -153,8 +153,20 @@
 }
 
 @media (min-height:730px) {
-  .zadachi {
+
+  /* .zadachi {
     margin-top: -2%;
+  } */
+  .carousel__item {
+    height: 515px;
+    /* background: #d8bf36; */
+    background: white;
+    padding: 1em;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: #ffffff;
+    /* display: none; */
   }
 }
 
