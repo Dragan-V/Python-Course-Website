@@ -152,6 +152,18 @@
   }
 }
 
+@media (min-height:730px) {
+  .zadachi {
+    margin-top: -2%;
+  }
+}
+
+/* @media (min-height:730px) {
+  .about_section .zadachi {
+    margin-top: 6%;
+  }
+} */
+
 @media (max-width: 360px) {}
 
 @media (max-width: 768px) {
