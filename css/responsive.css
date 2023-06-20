@@ -26,9 +26,10 @@
     padding: 45px 0 175px 0;
   }
 
+  /* 
   .footer_bg {
-    /* padding-top: 125px; */
-  }
+    padding-top: 125px;
+  } */
 
   /* 
   .quote_btn-container {
@@ -120,9 +121,9 @@
     transform: translateX(50%);
   }
 
-  .footer_bg {
-    /* padding-top: 75px; */
-  }
+  /* .footer_bg {
+    padding-top: 75px;
+  } */
 
   .info_section .row>div {
     display: flex;

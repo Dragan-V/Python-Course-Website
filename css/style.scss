@@ -374,9 +374,9 @@ a:focus {
 
 // end about section
 
-// service section
+// video section
 
-.service_section {
+.video_section {
   background-color: $primary2;
   color: $white;
   text-align: center;
@@ -386,7 +386,7 @@ a:focus {
     align-items: center;
   }
 
-  .service_container {
+  .video_container {
     display: flex;
     justify-content: center;
     padding: 35px 60px;
@@ -432,7 +432,7 @@ a:focus {
   }
 }
 
-// end service section
+// end video section
 
 // work section
 
