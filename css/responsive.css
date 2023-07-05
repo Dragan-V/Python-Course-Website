@@ -158,7 +158,7 @@
     margin-top: -2%;
   } */
   .carousel__item {
-    height: 515px;
+    height: 475px;
     /* background: #d8bf36; */
     background: white;
     padding: 1em;
@@ -167,6 +167,10 @@
     font-size: 2em;
     color: #ffffff;
     /* display: none; */
+  }
+
+  .carousel__item iframe {
+    height: 450px;
   }
 }
 
@@ -181,7 +185,7 @@
 @media (max-width: 768px) {
   .carousel__item iframe {
     width: 330px;
-    height: 500px;
+    height: 450px;
   }
 }
 
