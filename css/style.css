@@ -483,6 +483,8 @@ a:focus {
   background-color: #041858;
   color: #ffffff;
   text-align: center;
+  padding-right: 20%;
+  padding-left: 20%;
 }
 
 .video_section .heading_container {
