@@ -454,7 +454,7 @@ a:focus {
   -ms-flex-align: center;
   align-items: center;
   justify-content: center;
-  margin-top: 10%;
+  margin-top: 5%;
 
 }
 
@@ -487,8 +487,8 @@ a:focus {
   background-color: #041858;
   color: #ffffff;
   text-align: center;
-  padding-right: 20%;
-  padding-left: 20%;
+  padding-right: 15%;
+  padding-left: 15%;
 }
 
 .video_section .heading_container {
