@@ -8,7 +8,7 @@
   }
 }
 
-@media (max-height:735px) {
+@media (min-height:735px) {
   .team_section {
     margin-top: 5%;
   }
