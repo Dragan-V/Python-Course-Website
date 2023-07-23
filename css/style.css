@@ -458,6 +458,10 @@ a:focus {
 
 }
 
+.about_section .zadachi {
+  display: flex;
+}
+
 .about_section .img-box img {
   max-width: 100%;
 }
