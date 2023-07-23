@@ -168,9 +168,13 @@ body {
 .sub_page .footer_bg {
   background: none;
   background-color: #041858;
-  bottom: 0px;
+  /* bottom: 0px; */
   position: absolute;
   width: 100%;
+}
+
+.botom {
+  bottom: 0px;
 }
 
 /* 
