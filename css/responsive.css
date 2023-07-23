@@ -8,6 +8,12 @@
   }
 }
 
+@media (max-height:1120px) {
+  .team_section {
+    margin-top: 5%;
+  }
+}
+
 
 
 
