@@ -37,7 +37,7 @@
     cursor: pointer;
 }
 
-.carousel__button--next {
+.carousel__button.carousel__button--next {
     display: inline-block;
     background-image: url(../images/right-angle.png);
     background-size: 8px;
